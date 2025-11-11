@@ -1,0 +1,93 @@
+# =========================
+# OS & Editor Files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Python / Backend
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.log
+*.tmp
+*.bak
+*.old
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+*/.env/
+*/.venv/
+
+# Model and large binary files
+*.keras
+*.ckpt
+*.tflite
+*.onnx
+*.pb
+
+# Output / intermediate files
+outputs/
+logs/
+__cache__/
+
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun.lockb
+pnpm-lock.yaml
+dist/
+build/
+.next/
+out/
+coverage/
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Dataset and Model folders
+# =========================
+dataset/
+uploads/
+temp/
+cache/
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# =========================
+# Miscellaneous / OS
+# =========================
+ehthumbs.db
+Icon?
+desktop.ini
+
+# =========================
+# Archives / Backups
+# =========================
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
